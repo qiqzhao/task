@@ -8,6 +8,11 @@ body {
 }
 
 :root {
-  /* --padding-hor: 260px; */
-  --padding-hor: 20px;
+  --padding-hor: 260px;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --padding-hor: 20px;
+  }
 }

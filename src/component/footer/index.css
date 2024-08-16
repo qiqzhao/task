@@ -13,6 +13,7 @@
 @media (max-width: 820px) {
   .logo {
     grid-template-areas: "logo" "contact";
+    gap: 10px;
   }
 }
 
