@@ -1,0 +1,20 @@
+.contact-item {
+  height: fit-content;
+  padding: 0 10px;
+  display: flex;
+  text-wrap: nowrap;
+}
+
+.contact-item + .contact-item {
+  border-left: 1px solid #707070;
+}
+
+.contact-label {
+  color: #707070;
+}
+
+.contact-value {
+  color: #41b8ea;
+  font-weight: bold;
+  margin-left: 5px;
+}

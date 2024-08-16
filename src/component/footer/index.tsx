@@ -5,6 +5,8 @@ import TwitterIcon from "../../assets/twitter-icon.svg";
 import IGIcon from "../../assets/IG-icon.svg";
 import LikedinIcon from "../../assets/LNK-icon.svg";
 import YoutobeIcon from "../../assets/Youtube-icon.svg";
+import { Icon } from "./icon";
+import { ContactItem } from "./contact-item";
 
 export const Footer = () => {
   return (
@@ -12,38 +14,29 @@ export const Footer = () => {
       <div className="logo">
         <img className="foot-log-img" src={FootLogo} alt="footer logo" />
         <div className="contact">
-          <div className="contact-item">
-            <span className="contact-label">Call us:</span>
-            <span className="contact-value">+44 28 2544 7780</span>
-          </div>
-          <div className="contact-item">
-            <span className="contact-label">Email:</span>
-            <span className="contact-value">partners@fpmarkets.com</span>
-          </div>
-          <div className="contact-item">
-            <span className="contact-label">Social media:</span>
+          <ContactItem
+            className="call"
+            label="Call us:"
+            value="+44 28 2544 7780"
+          />
+          <ContactItem
+            className="email"
+            label="Email:"
+            value="partners@fpmarkets.com"
+          />
+          <ContactItem
+            className="social"
+            label="Social media:"
+            value="partners@fpmarkets.com"
+          >
             <span className="contact-social">
-              <a href="./" target="_blank">
-                <img className="contact-icon" src={FBIcon} alt="facebook" />
-              </a>
-              <a href="./" target="_blank">
-                <img className="contact-icon" src={TwitterIcon} alt="twitter" />
-              </a>
-              <a href="./" target="_blank">
-                <img className="contact-icon" src={IGIcon} alt="ig" />
-              </a>
-              <a href="./" target="_blank">
-                <img
-                  className="contact-icon"
-                  src={LikedinIcon}
-                  alt="linkedin"
-                />
-              </a>
-              <a href="./" target="_blank">
-                <img className="contact-icon" src={YoutobeIcon} alt="youtube" />
-              </a>
+              <Icon url="." src={FBIcon} alt="facebook" />
+              <Icon url="." src={TwitterIcon} alt="twitter" />
+              <Icon url="." src={IGIcon} alt="ig" />
+              <Icon url="." src={LikedinIcon} alt="linkedin" />
+              <Icon url="." src={YoutobeIcon} alt="youtube" />
             </span>
-          </div>
+          </ContactItem>
         </div>
       </div>
 

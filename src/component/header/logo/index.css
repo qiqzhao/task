@@ -1,14 +1,21 @@
 .header {
   background-color: #0b121c;
   color: #7c989f;
-  padding: 40px  var(--padding-hor) 44px;
+  padding: 40px var(--padding-hor) 44px;
 }
 
 .header-menu {
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-wrap: nowrap;
 }
 
-span + span {
-  margin-left: 10px;
+@media (max-width: 787px) {
+  .header-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    padding: 0;
+  }
 }
