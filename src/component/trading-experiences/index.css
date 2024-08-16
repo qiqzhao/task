@@ -1,0 +1,52 @@
+.trading-experience {
+  padding: 0 var(--padding-hor);
+  display: flex;
+}
+
+.trading-experience-container {
+  background-color: #f7f8fb;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+.trading-experience-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: fit-content;
+}
+
+@media (max-width: 1000px) {
+
+  .trading-experience {
+    padding: 0 var(--padding-hor);
+  }
+  .trading-experience-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .trading-experience-content {
+    width: fit-content;
+  }
+
+  .trading-experience img {
+    width: 100%;
+  }
+}
+
+.trading-experience-content h3 {
+  color: #132a4a;
+  font-size: 18px;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.trading-experience-content p {
+  color: #132a4a;
+  font-size: 16px;
+}
+
+.trading-experience img {
+  max-width: 567px;
+}
