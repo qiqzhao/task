@@ -1,0 +1,14 @@
+.header {
+  background-color: #0b121c;
+  color: #7c989f;
+  padding: 40px  var(--padding-hor) 44px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+span + span {
+  margin-left: 10px;
+}
