@@ -1,0 +1,28 @@
+.awards-counting {
+  padding: 80px var(--padding-hor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.awards-counting-title {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.awards-counting-award {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.awards-counting-award img:nth-child(n+5) {
+  flex: 0 0 auto; /* 禁止自动调整大小 */
+}
+.awards-counting-award img {
+  width: 260px;
+  height: 200px;
+}
+
+

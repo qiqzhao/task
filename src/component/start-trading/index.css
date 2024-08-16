@@ -20,7 +20,7 @@
   gap: 15px;
 }
 
-input {
+.start-trading input {
   background-color: #fff;
   opacity: 0.6;
   appearance: none;
@@ -32,7 +32,7 @@ input {
   border: 1px solid #fff;
 }
 
-button {
+.start-trading button {
   width: 330px;
   height: 50px;
   background-color: #41b8ea;
@@ -43,7 +43,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.start-trading button:hover {
   opacity: 0.6;
 }
 

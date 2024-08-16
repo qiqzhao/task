@@ -1,0 +1,79 @@
+.trade-trust {
+  background: url(../../assets/trade-trust-bg.png) no-repeat;
+  padding: 150px var(--padding-hor) 80px;
+  position: relative;
+  z-index: -2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.trade-trust-overlay {
+  position: absolute;
+  background: linear-gradient(293deg, #2a70991a, #2a709966, #205176f2, #132a4a);
+  opacity: 0.7;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.trade-trust-title {
+  color: #fff;
+  font-size: 55px;
+  margin-bottom: 40px;
+  text-wrap: nowrap;
+}
+
+.trade-trust-form {
+  width: fit-content;
+  margin-top: 100px;
+  padding: 20px 40px;
+  background-color: rgba(19, 42, 74, 0.6);
+  border-radius: 10px;
+  z-index: -1;
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1400px) {
+  .trade-trust-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .trade-trust-form input {
+    width: 233px !important;
+  }
+
+}
+
+@media (max-width: 787px) {
+  .trade-trust-form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.trade-trust-form input {
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  width: 180px;
+  height: 50px;
+}
+
+.trade-trust-form button {
+  background-color: #ee354d;
+  color: #fff;
+  padding: 15px 40px;
+  border: 1px solid #ee354d;
+  border-radius: 10px;
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+
+.trade-trust-form button:hover {
+  opacity: 0.6;
+}
