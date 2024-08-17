@@ -1,0 +1,16 @@
+.web-trader {
+  padding: 40px var(--padding-hor);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.web-trader-item {
+  background-color: #F6F7FA;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.web-trader-item h3 {
+  margin: 15px 0 10px;
+}

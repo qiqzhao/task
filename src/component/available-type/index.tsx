@@ -11,7 +11,7 @@ export const AvailableType = () => {
         <Card className="row" {...ROW_DATA} />
       </div>
       <p className="available-type-more">
-        For more information about account types - <a href="">Click here</a>
+        For more information about account types - <a href=".">Click here</a>
       </p>
     </section>
   );

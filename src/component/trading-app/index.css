@@ -4,7 +4,7 @@
 
 .trade-app-bg {
   background: url(../../assets/trading-app-bg.png) no-repeat;
-  background-size: cover;
+  min-height: 547px;
   border-radius: 20px;
   display: flex;
   justify-content: flex-end;
