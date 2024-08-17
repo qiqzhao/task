@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px var(--padding-hor);
+  padding: 40px calc(var(--padding-hor) + 60px);
 }
 
 .available-type-cards {

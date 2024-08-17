@@ -1,0 +1,29 @@
+.trade-app {
+  padding: 20px var(--padding-hor);
+}
+
+.trade-app-bg {
+  background: url(../../assets/trading-app-bg.png) no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trade-app-content {
+  padding: 100px 50px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trade-app-content h3 {
+  color: #41b8ea;
+  font-size: 30px;
+}
+
+.trade-app-content p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}
