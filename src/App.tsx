@@ -15,11 +15,13 @@ function App() {
     <>
       <Header />
       <TradeTrust />
-      <AwardsCounting />
-      <TradingExperience />
-      <AvailableType />
-      <TradingApp />
-      <WebTrader />
+      <div className="content">
+        <AwardsCounting />
+        <TradingExperience />
+        <AvailableType />
+        <TradingApp />
+        <WebTrader />
+      </div>
       <StartTrading />
       <Footer />
     </>

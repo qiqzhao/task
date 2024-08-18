@@ -9,13 +9,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px calc(var(--padding-hor) + 60px);
+  padding: 40px 60px;
 }
 
 .available-type-cards {
   display: flex;
   gap: 40px;
   margin-top: 50px;
+  width: 100%;
 }
 
 @media (max-width: 787px) {

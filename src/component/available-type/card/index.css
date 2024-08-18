@@ -1,4 +1,7 @@
+
+
 .card {
+  position: relative;
   background-color: var(--bg-color);
   border-radius: 0 20px 20px 20px;
   padding: 40px 20px;
@@ -6,6 +9,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.card.row::before {
+  content: "POPULAR"; 
+  position: absolute;
+  top: 20px;
+  right: -40px;
+  background-color: #EE354D; 
+  color: white;
+  padding: 5px 20px;
+  font-weight: bold;
+  transform: rotate(45deg) translate(-10px, 5px);
 }
 
 .card-type {
@@ -58,6 +74,7 @@
   color: var(--button-color);
   height: 60px;
   font-size: 20px;
+  text-wrap: nowrap;
 }
 
 .card a {

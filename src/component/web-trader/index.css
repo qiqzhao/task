@@ -1,5 +1,5 @@
 .web-trader {
-  padding: 40px var(--padding-hor);
+  padding: 40px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
