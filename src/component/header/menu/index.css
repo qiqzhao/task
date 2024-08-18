@@ -22,10 +22,29 @@
   background: linear-gradient(90deg, #0b121c, #171e28);
   padding: 0 20px;
   height: 100%;
+  min-height: 80px;
   vertical-align: middle;
   min-width: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-item:hover,
+.menu-item.selected {
+  color: #41b8ea;
+}
+
+.menu-item.selected:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #fff;
+  position: absolute;
+  bottom: 0;
 }
