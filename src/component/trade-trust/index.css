@@ -1,6 +1,6 @@
 .trade-trust {
   background: url(../../assets/trade-trust-bg.png) no-repeat;
-  padding: 150px var(--padding-hor) 80px;
+  padding: 150px var(--padding-hor) 40px;
   position: relative;
   z-index: -2;
   display: flex;

@@ -13,6 +13,6 @@ body {
 
 @media (max-width: 1200px) {
   :root {
-    --padding-hor: 20px;
+    --padding-hor: 10px;
   }
 }
