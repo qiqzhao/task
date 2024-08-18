@@ -7,11 +7,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  backdrop-filter: brightness(0.5);
+}
+
+@media (max-width: 767px) {
+  .trade-trust {
+    background-image: url(../../assets/trading-trust-bg-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .trade-trust-overlay {
   position: absolute;
-  background: linear-gradient(293deg, #2a70991a, #2a709966, #205176f2, #132a4a);
+  background: linear-gradient(270deg, #2a70991a, #2a709966, #205176f2, #132a4a);
   opacity: 0.7;
   z-index: -1;
   width: 100%;
@@ -46,7 +56,6 @@
   .trade-trust-form input {
     width: 233px !important;
   }
-
 }
 
 @media (max-width: 787px) {
