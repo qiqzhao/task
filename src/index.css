@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Inter";
+}
+
+:root {
+  --padding-hor: 260px;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --padding-hor: 20px;
+  }
+}
