@@ -1,7 +1,6 @@
 .trade-trust {
   background: url(../../assets/trade-trust-bg.png) no-repeat;
   padding: 150px var(--padding-hor) 40px;
-  position: relative;
   z-index: -2;
   display: flex;
   flex-direction: column;
@@ -43,9 +42,10 @@
   padding: 20px 40px;
   background-color: rgba(19, 42, 74, 0.6);
   border-radius: 10px;
-  z-index: -1;
+  z-index: 999;
   display: flex;
   gap: 10px;
+  position: relative;
 }
 
 @media (max-width: 1400px) {
